@@ -67,12 +67,29 @@ body {
     line-height: 33px;
 }
 
-.section-sub-title {
+.section-sub-title,
+.section-sub-title_span {
     color: #333;
     font-family: 'Merriweather';
     font-size: 48px;
     font-weight: 900;
     line-height: 69px;
+}
+
+.section-sub-title_span {
+    color: #005FA3;
+}
+
+.section-dec_text {
+    color: #000;
+    line-height: 138%;
+}
+
+.about-us_item,
+.our_clients,
+.our_expert {
+    background-color: #EBEBEB;
+    text-decoration: none;
 }
 
 .service-item-link {
@@ -103,4 +120,32 @@ body {
 .review-item-position {
     color: #EBEBEB;
     font-weight: 400;
+}
+
+.contact_us {
+    background-image: url(../img/form-bkg.jpg);
+    text-decoration: none;
+}
+
+.contact_us_title {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 69px;
+}
+
+.contact_us_sub_title {
+    color: #FFF;
+}
+
+.contact_us_number,
+.contact_us_email {
+    color: #FFF;
+    font-size: 21px;
+}
+
+.all-rights-reserved{
+    color: #000;
+    font-size: 14px;
 }
